@@ -23,7 +23,7 @@
         <asp:TextBox ID="actsOfSubterfugeTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="addAssetButton" runat="server" Text="Add Asset" />
+        <asp:Button ID="addAssetButton" runat="server" OnClick="addAssetButton_Click" Text="Add Asset" />
         <br />
         <br />
         <asp:Label ID="resultLabel" runat="server"></asp:Label>
