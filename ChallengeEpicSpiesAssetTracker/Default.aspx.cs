@@ -44,6 +44,10 @@ namespace ChallengeEpicSpiesAssetTracker
             ViewState["Acts of Subterfuge"] = actsOfSubterfuge;
 
             resultLabel.Text = String.Format("Total Elections Rigged: {0} <br/>Average Acts of Subterfuge per Asset: {1:N2} <br/>(Last Asset you Added: {2})", electionsRigged.Sum(), (double)actsOfSubterfuge.Average(), assetNames.Last());
+
+            assetNameTextBox.Text = "";
+            electionsRiggedTextBox.Text = "";
+            actsOfSubterfugeTextBox.Text = "";
         }
     }
 }
